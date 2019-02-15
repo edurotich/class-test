@@ -8,7 +8,7 @@ node {
     }
 	       
     }
-		stage('apply changes to the environment'){
+		stage('show me the files'){
 		
 		sh "ls -l"
 		sh "php -S localhost:5000"
