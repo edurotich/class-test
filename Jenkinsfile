@@ -6,11 +6,7 @@ node {
     {
         checkout scm
     }
-
-    stage('Show me the files') {
-
-        sh "ls -l"	
-       
+	       
     }
 		stage('apply changes to the environment'){
 		
